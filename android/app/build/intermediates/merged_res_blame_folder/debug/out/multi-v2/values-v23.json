@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "/home/khachatur/.gradle/caches/transforms-3/c8cd6e3e8fc63494683ed420205b6ed7/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",

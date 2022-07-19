@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/khachatur/.gradle/caches/transforms-3/19f285c5360101e74a65ffd2dd8f0c51/transformed/material-1.1.0/res/values-land/values-land.xml",

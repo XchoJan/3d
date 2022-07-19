@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/home/khachatur/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/res/values-pt-rBR/values-pt-rBR.xml",

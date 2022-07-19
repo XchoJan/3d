@@ -1,11 +1,11 @@
 import { createStackNavigator } from "@react-navigation/stack";
 import React from "react";
-import ForgotPassComponent from "../screens/ForgotScreen/ForgotPassScreen";
-import ForgotCodeComponent from "../screens/ForgotScreenCode/ForgotCode";
-import LoginComponent from "../screens/LoginScreen/LoginScreen";
-import NewPasswordComponent from "../screens/NewPasswordScreen/NewPasswordScreen"
-import RegistrationComponent from "../screens/RegistrationScreen/RegistrationScreen";
-import ConfirmEmailComponent from "../screens/ConfirmEmailScreen/ConfirmEmailScreen";
+import ForgotPassComponent from "../screens/AuthScreens/ForgotScreen/ForgotPassScreen";
+import ForgotCodeComponent from "../screens/AuthScreens/ForgotScreenCode/ForgotCode";
+import LoginComponent from "../screens/AuthScreens/LoginScreen/LoginScreen";
+import NewPasswordComponent from "../screens/AuthScreens/NewPasswordScreen/NewPasswordScreen"
+import RegistrationComponent from "../screens/AuthScreens/RegistrationScreen/RegistrationScreen";
+import ConfirmEmailComponent from "../screens/AuthScreens/ConfirmEmailScreen/ConfirmEmailScreen";
 const Stack = createStackNavigator();
 
 

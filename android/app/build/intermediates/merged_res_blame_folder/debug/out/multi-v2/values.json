@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "823",
+                        "startColumns": "4",
+                        "startOffsets": "59757",
+                        "endLines": "826",
+                        "endColumns": "12",
+                        "endOffsets": "59970"
+                    }
+                },
                 {
                     "source": "/home/khachatur/.gradle/caches/transforms-3/03961bb39c5326193b471a32a366795f/transformed/jetified-autofill-1.1.0/res/values/values.xml",
                     "from": {
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "source": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
                     "from": {
                         "startLines": "6,8",
                         "startColumns": "4,4",
@@ -40,22 +59,20 @@
                     }
                 },
                 {
-                    "source": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/src/main/res/values/styles.xml",
+                    "source": "/home/khachatur/Desktop/Task/it/3d/name2/3d/android/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "3",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "267"
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
-                        "startLines": "823",
+                        "startLines": "693",
                         "startColumns": "4",
-                        "startOffsets": "59757",
-                        "endLines": "826",
-                        "endColumns": "12",
-                        "endOffsets": "59970"
+                        "startOffsets": "44238",
+                        "endColumns": "41",
+                        "endOffsets": "44275"
                     }
                 },
                 {
@@ -348,23 +365,6 @@
                         "startOffsets": "40336",
                         "endColumns": "49",
                         "endOffsets": "40381"
-                    }
-                },
-                {
-                    "source": "/home/khachatur/Desktop/Task/it/3d/Name/android/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "693",
-                        "startColumns": "4",
-                        "startOffsets": "44238",
-                        "endColumns": "41",
-                        "endOffsets": "44275"
                     }
                 },
                 {
