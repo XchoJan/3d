@@ -7,7 +7,8 @@ import PatientsComponent from "../screens/MainScreens/PatientsScreen/PatientsScr
 import PractitionersComponent from "../screens/MainScreens/PractitionersScreen/PractitionersScreen";
 import SettingsComponent from "../screens/MainScreens/SettingsScreen/SettingsScreen";
 import SettingsThemeComponent from "../screens/MainScreens/SettingsScreen/SettingsThemeScreen/SettingsThemeScreen";
-
+import SettingsMeasurementComponent from "../screens/MainScreens/SettingsScreen/SettingsMeasurementScreen/SettingsMeasurementScreen";
+import PatientListComponent from "../screens/MainScreens/PatientsScreen/PatientList/PatientListScreen";
 import MoreSvg from "../assets/icons/MoreSvg";
 import PatientSvg from "../assets/icons/PatientSvg";
 import InformationSvg from "../assets/icons/InformationSvg";
@@ -44,6 +45,13 @@ function SettingsThemeScreen({navigation}) {
     return <SettingsThemeComponent navigation={navigation}/>;
 }
 
+function SettingsMeasurementScreen({navigation}) {
+    return <SettingsMeasurementComponent navigation={navigation}/>;
+}
+function PatientListScreen({navigation}) {
+    return <PatientListComponent navigation={navigation}/>;
+}
+
 
 export default function Main() {
     return (
@@ -69,11 +77,25 @@ export default function Main() {
                         options={{tabBarIcon: ({focused}) => (<SettingsSvg/>),
                             tabBarActiveTintColor: aqua_blue}}
             />
+
             <Tab.Screen name="Practitioners" component={PractitionersScreen}
                         options={{tabBarIcon: ({focused}) => (<PractitionersSvg/>),
                             tabBarActiveTintColor: aqua_blue
             }}/>
+
             <Tab.Screen name="SettingsTheme" component={SettingsThemeScreen}
+                        options={() => ({
+                            tabBarButton: () => null,
+                            tabBarStyle: {display: 'none'}
+                        })}/>
+
+            <Tab.Screen name="SettingsMeasurement" component={SettingsMeasurementScreen}
+                        options={() => ({
+                            tabBarButton: () => null,
+                            tabBarStyle: {display: 'none'}
+                        })}/>
+
+            <Tab.Screen name="PatientList" component={PatientListScreen}
                         options={() => ({
                             tabBarButton: () => null,
                             tabBarStyle: {display: 'none'}

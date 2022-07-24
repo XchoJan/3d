@@ -1,5 +1,7 @@
-import {View} from 'react-native'
-import Svg, { Path } from "react-native-svg"
+import {View} from 'react-native';
+import Svg, { Path } from "react-native-svg";
+import React from "react";
+
 
 
 const FbSvg = (props) => {
@@ -23,6 +25,5 @@ const FbSvg = (props) => {
 );
 };
 
-import React from "react";
 
 export default FbSvg;

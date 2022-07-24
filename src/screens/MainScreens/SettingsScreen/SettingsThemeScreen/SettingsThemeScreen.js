@@ -14,7 +14,11 @@ const SettingsThemeScreen = (props) => {
                 <View style={styles.header}>
                     <View style={styles.back_content}>
                         <View style={{flexDirection: 'row'}}>
-                            <Text style={styles.arrow_paddings}><ArrowLeft/></Text>
+                            <Pressable
+                                onPress={() => {
+                                    props.navigation.navigate('Settings')
+                                }}
+                                style={styles.arrow_paddings}><ArrowLeft/></Pressable>
                             <Text style={styles.back_title}>Back</Text>
                         </View>
                         <View style={styles.title_box}>

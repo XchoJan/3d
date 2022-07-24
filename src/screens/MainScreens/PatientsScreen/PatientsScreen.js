@@ -39,6 +39,7 @@ const HomeScreen = (props) => {
                             backgroundColor={'transparent'}
                             borderColor={'white'}
                             fontSize={Sizes.size16}
+                            handlePressBtn={()=>{props.navigation.navigate('PatientList')}}
                         >
                             Patient List
                         </BlueButton>

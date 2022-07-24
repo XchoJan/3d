@@ -5,6 +5,7 @@ import {dark_black, light_1} from "../../../helpers/colors/colors";
 import ArrowRigth from "../../../assets/icons/ArrowRigth";
 
 const SettingsScreen = (props) => {
+
     const [isEnabled, setIsEnabled] = useState(false);
     const toggleSwitch = () => setIsEnabled(previousState => !previousState);
 
@@ -42,10 +43,12 @@ const SettingsScreen = (props) => {
                 <View style={{paddingLeft: 16}}>
                     <Text style={styles.line}/>
                 </View>
-                <View style={styles.theme_box}>
+                <Pressable
+                    onPress={()=>{props.navigation.navigate('SettingsMeasurement')}}
+                    style={styles.theme_box}>
                     <Text style={styles.theme_title}>Unit of measurement (CM)</Text>
                     <Text><ArrowRigth/></Text>
-                </View>
+                </Pressable>
                 <View style={{paddingLeft: 16}}>
                     <Text style={styles.line}/>
                 </View>

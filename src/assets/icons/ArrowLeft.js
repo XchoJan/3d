@@ -4,8 +4,9 @@ import Svg, { Path } from "react-native-svg"
 
 const ArrowLeft = (props) => {
     return (
-        <View>
+        <View style={{top: props.top}}>
             <Svg
+
                 width={12}
                 height={22}
                 viewBox="0 0 12 22"
