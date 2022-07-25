@@ -10,7 +10,7 @@ const BlackHeader = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.content_container}>
-                <TouchableOpacity style={styles.first_item}>
+                <TouchableOpacity onPress={props.onPress} style={styles.first_item}>
                     <ArrowLeft/>
                     <Text style={[styles.title, {marginLeft: 5}]}>
                         Back
